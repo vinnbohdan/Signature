@@ -1,0 +1,79 @@
+﻿{
+  "fb": {
+    "title": "Facebook",
+    "type": "socnet",
+    "png": "fb.png",
+    "icon": "fa fa-facebook",
+    "placehold": "https:// Path to FB profile"
+  },
+  "in": {
+    "title": "LinkedIn",
+    "type": "socnet",
+    "png": "linkedin.png",
+    "icon": "fa fa-linkedin",
+    "placehold": "https:// Path to LinkedIn profile"
+  },
+  "skype": {
+    "title": "Skype",
+    "type": "mess",
+    "png": "skype.png",
+    "icon": "fa fa-skype",
+    "placehold": "Enter your Skype name"
+  },
+  "instagram": {
+    "title": "Instagram",
+    "type": "socnet",
+    "png": "instagram.png",
+    "icon": "fa fa-instagram",
+    "placehold": "https:// Path to Instagram profile"
+  },
+  "telegram": {
+    "title": "Telegram",
+    "type": "mess",
+    "png": "telegram.png",
+    "icon": "fa fa-paper-plane",
+    "placehold": "Enter your mobile phone"
+  },
+  "whatsapp": {
+    "title": "WhatsApp",
+    "type": "mess",
+    "png": "whatsapp.png",
+    "icon": "fa fa-whatsapp",
+    "placehold": "Enter your mobile phone"
+  },
+  "twitter": {
+    "title": "Twitter",
+    "type": "socnet",
+    "png": "twitter.png",
+    "icon": "fa fa-twitter",
+    "placehold": "https:// Path to Twitter profile"
+  },
+  "email": {
+    "title": "E-mail",
+    "type": "contact",
+    "png": "mail.png",
+    "icon": "fa fa-envelope",
+    "placehold": "Enter your e-mail"
+  },
+  "work": {
+    "title": "Work phone number",
+    "type": "contact",
+    "png": "work.png",
+    "icon": "fa fa-phone",
+    "placehold": "Enter your phone number"
+  },
+  "personal": {
+    "title": "Personal phone number",
+    "type": "contact",
+    "png": "personal.png",
+    "icon": "fa fa-mobile",
+    "placehold": "Enter your phone number"
+  },
+  "workskype": {
+    "title": "Work Skype",
+    "type": "contact",
+    "png": "skype.png",
+    "icon": "fa fa-skype",
+    "placehold": "Enter work Skype name"
+  }
+}

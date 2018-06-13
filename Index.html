@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CorporationLLC Signature</title>
+    <meta charset="utf-8" />
+
+    <link rel="icon" href="Content/icon/favicon.ico" />
+    <link href="Content/css/font.css" rel="stylesheet" />
+    <link href="Content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/css/form.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>CorporationLLC Signature</h1>
+    <div id="right">
+        <div class="info">
+            <h1 id="profile">Profile</h1>
+            <hr>
+            <div class="accounttype">
+                <input type="radio" value="None" id="rbtn-1" name="account" checked onclick="selectRadioBtn();" />
+                <label for="rbtn-1" class="radio" chec>Company</label>
+                <input type="radio" value="None" id="rbtn-2" name="account" onclick="selectRadioBtn();" />
+                <label for="rbtn-2" class="radio">Personal</label>
+            </div>
+            <hr>
+            <table id="infoTable" class="table">
+                <tr>
+                    <td><label id="icon" for="name"><i class="fa fa-address-card"></i></label></td>
+                    <td><input type="text" id="name" autocomplete="on" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label id="icon" for="name"><i class="fa fa-briefcase"></i></label></td>
+                    <td><input type="text" id="position" autocomplete="on" placeholder="Enter your position"></td>
+                </tr>
+                <tr>
+                    <td><label id="icon" for="name"><i class="fa fa-location-arrow"></i></label></td>
+                    <td>
+                        <select id="location">
+                            <option value="Ukraine, Vinnytsia">Vinnytsia</option>
+                            <option value="Israel, Tel Aviv">Tel Aviv</option>
+                            <option value="United States, LA">LA</option>
+                            <option value="Australia, Sydney">Sydney</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label id="icon" for="name"><i class="fa fa-info"></i></label></td>
+                    <td>
+                        <select id="infoList">
+                            <option>E-mail</option>
+                            <option>Work phone number</option>
+                            <option>Personal phone number</option>
+                            <option>Work Skype</option>
+                        </select>
+                        <button type="button" class="btnPlusMinus" onclick="addSocial('infoTable', 'infoList');"><i class="fa fa-plus"></i></button>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="button" class="buttonblue" value="Create" onclick="createSignature();">
+        </div>
+        <div class="info" id="social">
+            <h1 id="profile">Social media</h1>
+            <hr>
+            <table id="socialTable" class="table">
+                <tr></tr>
+            </table>
+        </div>
+    </div>
+    <div id="generate"></div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <span>HOW TO USE:</span>
+            </div>
+            <div class="modal-body">
+                <p> Signature is in the clipboard now. Paste it into your email client.</p>
+            </div>
+        </div>
+    </div>
+    <script src="Content/script/loadJSON.js"></script>
+    <script src="Content/script/createSignature.js"></script>
+    <script src="Content/script/copySignture.js"></script>
+    <script src="Content/script/addSocialInfo.js"></script>
+</body>
+</html>
